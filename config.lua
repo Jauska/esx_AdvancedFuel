@@ -1,7 +1,9 @@
 petrolCanPrice = 100
 
--- lang = "en"
-lang = "fr"
+ lang = "en"
+-- lang = "fr"
+-- lang = "fi"
+
 
 settings = {}
 settings["en"] = {
@@ -42,6 +44,24 @@ settings["fr"] = {
 	price = "prix"
 }
 
+settings["fi"] = {
+	openMenu = "Paina ~g~E~w~ avataksesi menun.",
+	electricError = "~r~Tämä on polttomoottoriauton tankkauspiste.",
+	fuelError = "~r~Tämä on sähköauton latauspiste..",
+	buyFuel = "Osta polttoainetta",
+	liters = "litraa",
+	percent = "Litraa",
+	confirm = "Vahvista",
+	fuelStation = "Bensa-asema",
+	boatFuelStation = "Veneen Bensa-asema",
+	avionFuelStation = "Lentokoneen Bensa-asema ",
+	heliFuelStation = "Helikopterin Bensa-asema",
+	getJerryCan = "Paina ~g~E~w~ ostaaksesi bensakannu hintaan "..petrolCanPrice.."€",
+	refeel = "Paina ~g~E~w~ tankataksesi auton.",
+	YouHaveBought = "Ostit ",
+	fuel = " litraa polttoainetta",
+	price = "Hinta"
+}
 
 showBar = false
 showText = true
@@ -57,5 +77,5 @@ text_y = 0.975
 
 electricityPrice = 1 -- NOT RANOMED !!
 
-randomPrice = true --Random the price of each stations
+randomPrice = false --Random the price of each stations
 price = 1.5 --If random price is on False, set the price here for 1 liter
